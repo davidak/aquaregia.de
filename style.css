@@ -1,9 +1,21 @@
-/* Sticky footer styles
--------------------------------------------------- */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(opensans.woff) format('woff');
+}
+@font-face {
+  font-family: 'Londrina Shadow';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Londrina Shadow'), local('LondrinaShadow-Regular'), url(londrinashadow.woff) format('woff');
+}
 
 html,
 body {
   height: 100%;
+  background-image: url('noisy.png');
+  font-family: 'Open Sans', sans-serif;
   /* The html and body elements cannot have any padding or margin. */
 }
 
@@ -23,11 +35,6 @@ body {
   background-color: #f5f5f5;
 }
 
-
-/* Custom page CSS
--------------------------------------------------- */
-/* Not required for template or sticky footer method. */
-
 .container {
   width: auto;
   max-width: 680px;
@@ -37,6 +44,14 @@ body {
   margin: 20px 0;
 }
 
+.header h1 {
+  font-size: 120px;
+  font-family: londrina-shadow, Georgia, sans-serif;
+}
+
+.header p {
+  font-size: 22px;
+}
 .ribbon-wrapper {
 width: 172px;
 height: 172px;
