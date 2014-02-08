@@ -2,13 +2,13 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: local('Open Sans'), local('OpenSans'), url(font/OpenSans.woff) format('woff');
+  src: local('Open Sans'), local('OpenSans'), url('font/OpenSans.woff') format('woff');
 }
 @font-face {
   font-family: 'Londrina Shadow';
   font-style: normal;
   font-weight: 400;
-  src: local('Londrina Shadow'), local('LondrinaShadow-Regular'), url(font/LondrinaShadow.woff) format('woff');
+  src: local('Londrina Shadow'), local('LondrinaShadow-Regular'), url('font/LondrinaShadow.woff') format('woff');
 }
 
 html,
@@ -46,7 +46,7 @@ body {
 
 .header h1 {
   font-size: 120px;
-  font-family: londrina-shadow, Georgia, sans-serif;
+  font-family: 'Londrina Shadow', Georgia, sans-serif;
 }
 
 .header p {
