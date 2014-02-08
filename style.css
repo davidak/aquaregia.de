@@ -48,21 +48,24 @@ body {
   border-bottom: 1px solid #C9C9C9;
 }
 
-
 .page-header h1 {
   font-size: 900%;
   font-family: 'Londrina Shadow', Georgia, sans-serif;
+}
+
+.page-header p {
+  font-size: 22px;
 }
 
 @media only screen and (max-width: 640px) {
   .page-header h1 {
     font-size: 500%;
   }
+  .page-header p {
+  font-size: 18px;
+}
 }
 
-.page-header p {
-  font-size: 22px;
-}
 .ribbon-wrapper {
 width: 172px;
 height: 172px;
