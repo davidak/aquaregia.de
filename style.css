@@ -2,13 +2,13 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: local('Open Sans'), local('OpenSans'), url(opensans.woff) format('woff');
+  src: local('Open Sans'), local('OpenSans'), url(font/OpenSans.woff) format('woff');
 }
 @font-face {
   font-family: 'Londrina Shadow';
   font-style: normal;
   font-weight: 400;
-  src: local('Londrina Shadow'), local('LondrinaShadow-Regular'), url(londrinashadow.woff) format('woff');
+  src: local('Londrina Shadow'), local('LondrinaShadow-Regular'), url(font/LondrinaShadow.woff) format('woff');
 }
 
 html,
