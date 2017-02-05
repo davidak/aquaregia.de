@@ -1,0 +1,4 @@
+aquaregia.de www.aquaregia.de {
+  root /var/www/aquaregia/web/
+  gzip
+}
