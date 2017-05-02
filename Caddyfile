@@ -1,4 +1,24 @@
-aquaregia.de www.aquaregia.de {
+www.aquaregia.de {
+  redir https://aquaregia.de{uri}
+}
+
+aquaregia.de {
   root /var/www/aquaregia/web/
   gzip
+
+  log /var/www/aquaregia/log/access.log {
+    rotate {
+      size 100
+      age 96
+      keep 10
+    }
+  }
+
+  errors {
+    log /var/www/aquaregia/log/error.log {
+      size 100
+      age 96
+      keep 10
+    }
+  }
 }
