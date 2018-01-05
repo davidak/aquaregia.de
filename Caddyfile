@@ -7,18 +7,16 @@ aquaregia.de {
   gzip
 
   log /var/www/aquaregia/log/access.log {
-    rotate {
-      size 100
-      age 96
-      keep 10
-    }
+    rotate_size 100
+    rotate_age 96
+    rotate_keep 10
+    rotate_compress
   }
 
-  errors {
-    log /var/www/aquaregia/log/error.log {
-      size 100
-      age 96
-      keep 10
-    }
+  errors /var/www/aquaregia/log/error.log {
+    rotate_size 100
+    rotate_age 96
+    rotate_keep 10
+    rotate_compress
   }
 }
